@@ -38,7 +38,7 @@ An AssetMap XML file looks like this:
     <Name>xxxxxx</Name>
     <Container>xxxxxx</Container>
     <Type id="xx">xxxxxxx</Type>
-    <PathID>xxxxxxxx<PathID>
+    <PathID>xxxxxxxx</PathID>
     <Source>xxxx</Source>
   </Asset>
   ...
