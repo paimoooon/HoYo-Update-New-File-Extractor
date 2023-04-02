@@ -30,6 +30,29 @@ Extract newly added files for each upate. Only tested on a dead game yet.
 
 This script parses two XML files and select out the assets with new names in the new XML file. Then it parses the selected assets and extract them one by one using the source path and asset name. This process is not the most optimized, but usable for now at leaset.
 
+An AssetMap XML file looks like this:
+
+```xml
+<Assets>
+  <Asset>
+    <Name>xxxxxx</Name>
+    <Container>xxxxxx</Container>
+    <Type id="xx">xxxxxxx</Type>
+    <PathID>xxxxxxxx<PathID>
+    <Source>xxxx</Source>
+  </Asset>
+  ...
+<Assets>
+```
+
+If you follow the steps correctly, you will have:
+
+```
+  ./input/old_assetmap.xml
+  ./input/new_assetmap.xml
+  ./output/added_assets.xml
+  ./output/<Category>/
+```
 ---
 
 ### Special Thank
