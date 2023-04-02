@@ -29,6 +29,7 @@ Extract newly added files for each upate. Only tested on a dead game yet.
 ### Note
 
 This script parses two XML files and select out the assets with new names in the new XML file. Then it parses the selected assets and extract them one by one using the source path and asset name. This process is not the most optimized, but usable for now at lease.
+---
 
 ### Special Thank
 
