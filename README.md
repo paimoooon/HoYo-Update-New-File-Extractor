@@ -42,7 +42,7 @@ An AssetMap XML file looks like this:
     <Source>xxxx</Source>
   </Asset>
   ...
-<Assets>
+</Assets>
 ```
 
 If you follow the steps correctly, you will have:
